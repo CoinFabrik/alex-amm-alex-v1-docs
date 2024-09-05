@@ -1,4 +1,6 @@
-# Token List
+# 🟩 Token List
+
+<mark style="color:green;">**Demo note:**</mark> <mark style="color:green;"></mark><mark style="color:green;">This page will be moved to Mainnet subsection since involves mainnet addresses.</mark>
 
 Where applicable, ALEX uses "wrapped" token to ensure certain functionalities (mainly the support for the fixed notation) are added to the native, 3rd-party, tokens.
 

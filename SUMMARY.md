@@ -5,10 +5,10 @@
 ## 📈 Trading, Lending and Borrowing
 
 * [Our Design](trading-lending-and-borrowing/platform-architecture-that-supports-ecosystem-development.md)
-* [Trading Pool](trading-lending-and-borrowing/trading-pool/README.md)
+* [🟩 Trading Pool](trading-lending-and-borrowing/trading-pool.md)
 * [Collateral Rebalancing Pool](trading-lending-and-borrowing/collateral-rebalancing-pool.md)
 * [Yield Token Pool](trading-lending-and-borrowing/automated-market-making-designed-for-lending-protocols.md)
-* [Vault](trading-lending-and-borrowing/vault.md)
+* [🟩 Vault](trading-lending-and-borrowing/vault.md)
 
 ## 🧙‍♀️ Bitcoin Oracle
 
@@ -43,20 +43,20 @@
 
 ## 📚 Whitepaper
 
-* [Automated Market Making of Trading Pool](whitepaper/automated-market-making-of-alex/README.md)
-* [Automated Market Making of Yield Token Pool](whitepaper/automated-market-making-of-alex/automated-market-making-of-alex.md)
+* [Automated Market Making of Trading Pool](whitepaper/automated-market-making-of-alex.md)
+* [Automated Market Making of Yield Token Pool](whitepaper/automated-market-making-of-alex-1.md)
 * [Automated Market Making of Collateral Rebalancing Pool](whitepaper/automated-market-making-of-collateral-rebalancing-pool.md)
 * [Dive Into Collateral Rebalancing Pool!](whitepaper/dive-into-collateral-rebalancing-pool.md)
 
 ## 🎮 Developers
 
-* [Environments](developers/environments/README.md)
+* [🟩 Networks](developers/environments/README.md)
   * [Mainnet](developers/environments/mainnet.md)
-  * [Token List](developers/environments/token-list.md)
+  * [🟩 Token List](developers/environments/token-list.md)
   * [Testnet](developers/environments/testnet.md)
-  * [AMM Pool Mapping](developers/environments/amm-pool-mapping.md)
-* [Smart Contracts](developers/smart-contracts/README.md)
-  * [amm-pool-v2-01.clar](developers/smart-contracts/amm-pool-v2-01.clar.md)
-  * [amm-registry-v2-01.clar](developers/smart-contracts/amm-registry-v2-01.clar.md)
-  * [amm-vault-v2-01.clar](developers/smart-contracts/amm-vault-v2-01.clar.md) 
+  * [🟩 AMM Pool Mapping](developers/environments/amm-pool-mapping.md)
+* [🟩 Protocol Contracts](developers/smart-contracts/README.md)
+  * [amm-pool-v2-01](developers/smart-contracts/amm-pool-v2-01.clar.md)
+  * [amm-registry-v2-01](developers/smart-contracts/amm-registry-v2-01.clar.md)
+  * [amm-vault-v2-01](developers/smart-contracts/amm-vault-v2-01.clar.md)
 * [REST API](developers/api-references.md)

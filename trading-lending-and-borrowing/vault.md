@@ -1,10 +1,12 @@
-<mark style="color:green;">Demo note: A link to developers contract section will be included.</mark>
+# 🟩 Vault
 
-# Vault
+<mark style="color:green;">**Demo note:**</mark> <mark style="color:green;">This document will be updated with current v2-01 version.</mark> <mark style="color:green;">A link to DEVELOPERS -> Protocol Contracts -> Vault section will be included for developers interested in implementation.</mark>
+
+## Vault
 
 Vault holds and manages the assets of all ALEX pools. The separation of pool and vault has many benefits including, among others, cheaper transaction costs for users and quicker learning curve for developers when building custom pools on ALEX.
 
-## Flash Loan
+### Flash Loan
 
 Aggregating the assets of all ALEX pools into a single vault allows for the offering of Flash Loan, [popularized by AAVE](https://aave.com/flash-loans/).
 

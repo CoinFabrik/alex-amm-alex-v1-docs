@@ -1,6 +1,6 @@
-# Pool
+# amm-pool-v2-01
 
-#### Location: [_`./alex-dao-2/contracts/extensions/amm-pool-v2-01.clar`_](https://github.com/alexgo-io/alex-dao-2/blob/main/contracts/extensions/amm-pool-v2-01.clar)
+#### Location: [`alex-dao-2/contracts/extensions/amm-pool-v2-01.clar`](https://github.com/alexgo-io/alex-dao-2/blob/main/contracts/extensions/amm-pool-v2-01.clar)
 
 This document provides comprehensive technical documentation for the primary contract in ALEX's AMM Trading Pool system. The contract encompasses several core operations, including pool creation, liquidity operations (adding or removing assets), LP token management (minting and burning tokens that represent a user's share of the pool and potential earnings), and token swapping (facilitating the exchange of tokens within an existing and funded pool while charging a corresponding fee). This contract is complemented by two auxiliary contracts: a REGISTRY contract that handles the persistence of pool information, and a VAULT contract that secures the assets and manages the reserves accumulated from the fees. For detailed information about these auxiliary contracts, please refer to their respective technical documentation: [amm-registry-v2-01.clar](amm-registry-v2-01.clar.md) and [amm-vault-v2-01.clar](amm-vault-v2-01.clar.md).
 
@@ -247,9 +247,7 @@ These helper functions facilitate the retrieval of specific token data using ano
 
 **Mathematical helpers**
 
-These helper functions aid in various calculations within the context of 
-the contract, such as amounts, percentages, etc. Some of these functions rely on predefined constants, as specified in [mathematical constants](amm-pool-v2-01.clar.md#mathematical-constants): `accumulate_division`, `accumulate_product`, `div-down`, `div-up`, `exp-fixed`, `exp-pos`, `ln-fixed`, `ln-priv`, `log-fixed`, `mul-down`, `mul-up`, `pow-down`, `pow-fixed`, `pow-priv`, `pow-up`, `rolling_div_sum`, `rolling_sum_div`.
-
+These helper functions aid in various calculations within the context of the contract, such as amounts, percentages, etc. Some of these functions rely on predefined constants, as specified in [mathematical constants](amm-pool-v2-01.clar.md#mathematical-constants): `accumulate_division`, `accumulate_product`, `div-down`, `div-up`, `exp-fixed`, `exp-pos`, `ln-fixed`, `ln-priv`, `log-fixed`, `mul-down`, `mul-up`, `pow-down`, `pow-fixed`, `pow-priv`, `pow-up`, `rolling_div_sum`, `rolling_sum_div`.
 
 ## Errors defined in the contract
 
